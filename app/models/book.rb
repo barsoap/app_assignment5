@@ -25,5 +25,6 @@ class Book < ApplicationRecord
       Book.where('name LIKE ?', '%' + content + '%')
     end
   end
+  #コメントアウトがありわかりやすい
 
 end
